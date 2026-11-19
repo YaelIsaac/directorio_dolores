@@ -45,7 +45,7 @@ class _PantallaNegociosState extends State<PantallaNegocios> {
     final vm = widget.vm;
     return AnimatedBuilder(
       animation: vm,
-      builder: (_, __) => Scaffold(
+      builder: (_, _) => Scaffold(
         appBar: AppBar(title: const Text('Directorio · Dolores Hidalgo')),
         floatingActionButton:
             FloatingActionButton(onPressed: _nuevo, child: const Icon(Icons.add)),
